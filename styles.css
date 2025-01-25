@@ -69,6 +69,30 @@ body {
   
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+        margin: 0;
+        background: url(./assets/ghost-mobile-2.png) no-repeat center center;
+        background-size: cover;
+    }
+
+    .ghost-title-container {
+        font-size: 20px; 
+        font-weight: bold;
+        font-family: "Bebas Neue", serif;
+        text-align: center;
+        position: absolute; 
+        top: 13%;
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: #000; 
+    }
+
     .cta-container {
         display: flex;
         flex-direction: column; 
