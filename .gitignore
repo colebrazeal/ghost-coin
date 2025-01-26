@@ -1,0 +1,8 @@
+# Ignore the assets folder
+assets/
+
+# Ignore specific files
+app.js
+index.html
+styles.css
+CNAME
