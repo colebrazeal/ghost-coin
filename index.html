@@ -12,11 +12,27 @@
 </head>
 
 <body>
+
+    <div class="loader-container">
+        <div class="pre-loader">
+            <div class="loader"></div>
+            <div class="loader-bg"></div>
+        </div>
+        <div class="loader-content">
+            <div class="count"><p>0</p></div>
+            <div class="copy"><p class="ml16">$GHOST</p></div>
+        </div>
+    </div>
+
     <div class="cta-container">
         <a href="#" ><img class="cta" src="./assets/square-x-twitter-brands-solid.svg" /></a>
         <a href="#" ><img class="cta" src="./assets/telegram-brands-solid.svg" /></a>
         <a href="#" ><img class="cta" src="./assets/file-solid.svg" /></a>
     </div>
+
+    <!-- <div class="coin-container">
+        <img class="ghost-coin" src="./assets/ghost-coin.png" />
+    </div> -->
 
     <div class="ghost-title-container">
         <h1>Official $Ghost Coin</h1>
@@ -25,6 +41,10 @@
     <div class="contract-container">
         <h3>CA: 0x8b4aee2645673fc7e78cf1533a4bb63c2b1a3e9e</h3>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
